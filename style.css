@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.efont{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 21px;
+}
+.ifont{
+    font-size: 18px;
+    font-weight: bold;
+}
+.fimg{
+    height: 130px; width: 110px; 
+    margin-top: 13px;
+}
+.hr{
+    width: 1142px; 
+    height: 7px;
+}
+
+@media(min-width:340px) and (max-width:413px){
+    .resume{
+        font-size: 14px;
+    }
+    .efont{
+        font-size: 19px;
+    }
+    .ifont{
+        font-size: 16px;
+    }
+    .fimg{
+        width: 94px;
+        height: 108px;
+    }
+    #lname{
+        font-size: 15px;
+    }
+    .proj{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:339px){
+    .resume{
+        font-size: 12px;
+    }
+    .efont{
+        font-size: 16px;
+    }
+    .ifont{
+        font-size: 14px;
+    }
+    .fimg{
+        width: 92px;
+        height: 106px;
+    }
+    #lname{
+        font-size: 11px;
+        padding-right: 0px;
+    }
+    .proj{
+        font-size: 12px;
+    }
+    .fimg{
+        width: 50px;
+        height: 64px;
+    }
+}
